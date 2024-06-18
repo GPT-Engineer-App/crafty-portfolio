@@ -4,6 +4,10 @@ import About from "./pages/About.jsx";
 import Shop from "./pages/Shop.jsx";
 import Blog from "./pages/Blog.jsx";
 import Work from "./pages/Work.jsx";
+import Design from "./pages/Design.jsx";
+import WebDevelopment from "./pages/WebDevelopment.jsx";
+import Photography from "./pages/Photography.jsx";
+import Music from "./pages/Music.jsx";
 import Layout from "./components/Layout.jsx";
 
 function App() {
@@ -16,6 +20,10 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/work/design" element={<Design />} />
+          <Route path="/work/web-development" element={<WebDevelopment />} />
+          <Route path="/work/photography" element={<Photography />} />
+          <Route path="/work/music" element={<Music />} />
         </Routes>
       </Layout>
     </Router>
